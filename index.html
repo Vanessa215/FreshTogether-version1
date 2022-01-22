@@ -7,7 +7,7 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ogani | Template</title>
+    <title>FJU|生鮮蔬果一起來</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <link rel="stylesheet" href="css/for_shopping_cart/bootstrap.min.css">
 
 </head>
 
@@ -36,7 +38,9 @@
         <div class="humberger__menu__logo">
             <a href="#"><img src="img/logo.png" alt=""></a>
         </div>
+
         <div class="humberger__menu__cart">
+
             <ul>
                 <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                 <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
@@ -45,7 +49,7 @@
             <div class="header__cart__price">item: <span>$150.00</span></div>
 
         </div>
-
+<!-- 
         <div class="humberger__menu__widget">
             <div class="header__top__right__language">
                 <img src="img/language.png" alt="">
@@ -57,10 +61,10 @@
                 </ul>
             </div>
             <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Login</a>
+                <a href="./logIn_SignUp.html"><i class="fa fa-user">Login</i> </a>
             </div>
-        </div>
-        <nav class="humberger__menu__nav mobile-menu">
+        </div> -->
+        <!-- <nav class="humberger__menu__nav mobile-menu">
             <ul>
                 <li class="active"><a href="./index.html">Home</a></li>
                 <li><a href="./shop-grid.html">Shop</a></li>
@@ -73,9 +77,9 @@
                     </ul>
                 </li>
                 <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./contact.html">Contact0</a></li>
             </ul>
-        </nav>
+        </nav> -->
         <div id="mobile-menu-wrap"></div>
         <div class="header__top__right__social">
             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -103,6 +107,7 @@
                                 <li><i class="fa fa-envelope"></i> Fresh_Together@mail.fju.edu.tw </li>
                                 <li>輔大資訊管理學系專題-生鮮蔬果一起來</li>
                             </ul>
+                            
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
@@ -113,6 +118,7 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-pinterest-p"></i></a>
                             </div>
+                            <!-- 下面這個是英文、西班牙文的切換按鍵 -->
                             <!-- <div class="header__top__right__language">
                                 <img src="img/language.png" alt="">
                                 <div>English</div>
@@ -123,20 +129,24 @@
                                 </ul>
                             </div> -->
                             <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Login</a>
+                                <a href="./logIn_SignUp.html"><i class="fa fa-user"></i> Login</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- 第二排功能導覽列 -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="img/logo.png" alt="" ></a>
                     </div>
                 </div>
+
+                
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
@@ -155,11 +165,20 @@
                         </ul>
                     </nav>
                 </div>
+                
                 <div class="col-lg-3">
+
                     <div class="header__cart">
                         <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            <li><a href="#">
+                                <i class="fa fa-heart"></i> 
+                                <span>1</span></a>
+                            </li>
+
+                            <div style="float: right; cursor: pointer;">
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>4</span></a></li></div>
+
+
                         </ul>
                         <div class="header__cart__price">item: <span>$150.00</span></div>
                     </div>
@@ -169,6 +188,7 @@
                 <i class="fa fa-bars"></i>
             </div>
         </div>
+        <!-- 第二排功能導覽列END -->
     </header>
     <!-- Header Section End -->
 
@@ -180,10 +200,10 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments test</span>
+                            <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Fresh Meat0</a></li>
+                            <li><a href="#">Fresh Meat</a></li>
                             <li><a href="#">Vegetables</a></li>
                             <li><a href="#">Fruit & Nut Gifts</a></li>
                             <li><a href="#">Fresh Berries</a></li>
@@ -782,7 +802,9 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 
-
+    <script src="js/for_shopping_cart/jquery-2.2.3.min.js"></script>
+    <script type='text/javascript'src="js/for_shopping_cart/bootstrap.min.js"></script>
+    <script type='text/javascript' src="js/for_shopping_cart/jquery.mycart.js"></script>
 
 </body>
 
