@@ -84,7 +84,7 @@ p {
 }
 
 img {
-	max-width: 100%;
+	max-width: 50%;
 }
 
 input:focus,
@@ -399,7 +399,7 @@ ol {
 
 .header__top__right__auth a {
 	display: block;
-	font-size: 14px;
+	font-size: 20px;
 	color: #1c1c1c;
 }
 
@@ -422,7 +422,6 @@ ol {
 .header__menu ul li {
 	list-style: none;
 	display: inline-block;
-	margin-right: 50px;
 	position: relative;
 }
 
@@ -642,7 +641,7 @@ ol {
 	width: 610px;
 	height: 50px;
 	border: 1px solid #ebebeb;
-	position: relative;
+	position: absolute;
 	float: left;
 }
 
@@ -727,7 +726,7 @@ ol {
 }
 
 .hero__item {
-	height: 431px;
+	height: 590px;
 	display: flex;
 	align-items: center;
 	padding-left: 75px;
@@ -2912,7 +2911,7 @@ ol {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.header__menu ul li {
-		margin-right: 45px;
+
 	}
 	.hero__search__form {
 		width: 490px;
