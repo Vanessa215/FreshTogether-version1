@@ -21,8 +21,6 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    
-    <link rel="stylesheet" href="css/for_shopping_cart/bootstrap.min.css">
 
 </head>
 
@@ -66,15 +64,12 @@
     </div>
     <!-- Humberger End -->
 
-    <!-- Header Section Begin -->
-    <header class="header">
-       
-
-        <!-- 第二排功能導覽列 -->
+        <!-- 導覽列 -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="header__logo">
+                    <div class="header__logo" >
+                        <!-- style="text-align: right;" -->
                         <a href="./index.html"><img src="img/logo.png" alt="" ></a>
                     </div>
                 </div>
@@ -161,12 +156,10 @@
                 <i class="fa fa-bars"></i>
             </div>
         </div>
-        <!-- 第二排功能導覽列END -->
-    </header>
-    <!-- Header Section End -->
+        <!-- 導覽列END -->
 
     <!-- Featured Section Begin -->
-    <section class="featured spad">
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -174,28 +167,28 @@
                         <h2>訂單查詢</h2>
                     </div>
                     <div class="featured__controls">
-                        <ul>
-                            <li class="active" data-filter="*"><a  href="#1a" data-toggle="tab">全部</a></li>
-                            <li data-filter=".oranges"><a  href="#2a" data-toggle="tab">待出貨</a></li>
-                            <li data-filter=".fresh-meat"><a  href="#3a" data-toggle="tab">備貨中</a></li>
-                            <li data-filter=".vegetables"><a  href="#4a" data-toggle="tab">已完成</a></li>
-                            <li data-filter=".fastfood"><a  href="#5a" data-toggle="tab">不成立</a></li>
+                        <ul class="nav nav-tabs" data-tabs="tabs" style="display: contents;">
+                            <li><a style="color:black;font-weight: bold;" class="active"  href="#aaa" data-toggle="tab">全部</a></li>
+                            <li><a style="color:black;font-weight: bold;" href="#bbb" data-toggle="tab">待出貨</a></li>
+                            <li><a style="color:black;font-weight: bold;" href="#ccc" data-toggle="tab">備貨中</a></li>
+                            <li><a style="color:black;font-weight: bold;" href="#ddd" data-toggle="tab">已完成</a></li>
+                            <li><a style="color:black;font-weight: bold;" href="#eee" data-toggle="tab">不成立</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
         </div>
-    </section>
+
     <!-- Featured Section End -->
 
 
    <!-- Shoping Cart Section Begin -->
     <div class="container">
         
-        <div class="tab-content clearfix">
+        <div class="tab-content">
 <!-- 01 -->
-            <div class="shoping__cart__table tab-pane active" id="1a">
+            <div class="shoping__cart__table tab-pane fade active show" id="aaa">
 
                 <table >
                     <thead>
@@ -249,7 +242,7 @@
                 </table>
             </div>
 <!-- 02 -->
-            <div class="shoping__cart__table tab-pane " id="2a">
+            <div class="shoping__cart__table tab-pane fade " id="bbb">
 
                 <table >
                     <thead>
@@ -303,7 +296,7 @@
                 </table>
             </div>
 <!-- 03 -->
-            <div class="shoping__cart__table tab-pane " id="3a">
+            <div class="shoping__cart__table tab-pane fade " id="ccc">
 
                 <table >
                     <thead>
@@ -357,7 +350,7 @@
                 </table>
             </div>
 <!-- 04 -->
-            <div class="shoping__cart__table tab-pane " id="4a">
+            <div class="shoping__cart__table tab-pane fade " id="ddd">
 
                 <table >
                     <thead>
@@ -411,7 +404,7 @@
                 </table>
             </div>
 <!-- 05 -->
-            <div class="shoping__cart__table tab-pane " id="5a">
+            <div class="shoping__cart__table tab-pane fade" id="eee">
 
                 <table >
                     <thead>
@@ -466,7 +459,7 @@
             </div>
         </div>
     </div>
-</section>
+
 <!-- Shoping Cart Section End -->
 
 
@@ -548,11 +541,7 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
-    <script src="js/for_shopping_cart/jquery-2.2.3.min.js"></script>
-    <script type='text/javascript'src="js/for_shopping_cart/bootstrap.min.js"></script>
-    <script type='text/javascript' src="js/for_shopping_cart/jquery.mycart.js"></script>
-
+    
 </body>
 
 </html>
