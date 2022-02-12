@@ -2303,6 +2303,7 @@ ol {
 	color: #b2b2b2;
 	border-radius: 4px;
 	margin-left: 45%; 
+	white-space: nowrap;
 	
 	
 }
